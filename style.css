@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(6, 181, 235, 0.986);
+    /* height: 50vh; */
+    
+}
+
+
+
+h2{
+    margin: 0px;
+    margin-left: 20px;
+    padding: 20px;
+    display: inline-block;
+    font-family: serif;
+    font-size: 30px;
+
+}
+
+ul,li,a{
+    display: inline;
+    list-style: none;
+    padding-left: 18px;
+    margin-left: 18px;
+    font-family: serif;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    color:  black;
+    font-size: 20px;
+    display: inline;
+    transition: 0.3s ease;
+}
+ul,li,a:hover{
+    color: blue;
+}
+
+
+
+button{
+    margin-right: 10px;
+    padding: 0%;
+    margin-top: 2%;
+    display: inline-block;
+    float: right;
+    background: blue;
+    color: rgb(14, 14, 14);
+    border-radius: 10px;
+   height: 30px;
+    width: 5%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    border-width: 3px;
+
+    
+    
+
+}
+
+.btn2{
+    background-color: transparent;
+    transition: 0.3s ease;
+}
+
+.btn2:hover{
+    background-color: blue;
+}
+
+.left{
+    margin-top: 10%;
+    margin-left: 30px;
+    width: 50%;
+    
+    
+}
+
+.heading{
+    font-size: 60px;
+    font-family: serif;
+    font-weight: bolder;
+
+}
+
+.paragraph{
+    margin-top: 10px;
+    padding-top: 0%;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 500;
+    word-spacing: 2px;
+
+
+}
+
+.join{
+    padding: 0%;
+    margin: 10px;
+    margin-right: 20px;
+    float: left;
+    height: 2.5rem;
+    width: 5rem;
+
+}
+
+.learn{
+    padding: 0%;
+    margin: 10px;
+    float: left;
+    height: 2.5rem;
+    width: 6rem;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.5 ease-in-out;
+}
+
+.learn:hover{
+    background-color: blue;
+}
+
+.right{
+    padding: 0;
+    margin-top: -18%;
+    margin-right: -10%;
+    float: right;
+    
+        
+}
